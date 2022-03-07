@@ -1,0 +1,112 @@
+.navbar{
+    background-color: #ccc;
+    height: 80px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    position: relative;
+    z-index: 9;
+}
+
+.menu-bars{
+    margin-left: 1rem;
+    font-size: 2rem;
+    background: none;
+}
+
+.nav-menu{
+    background-color: #ccc;
+    width: 250px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top:0;
+    left: -100%;
+    transition: 850ms;
+    z-index: 900;
+    -webkit-box-shadow: 13px 5px 25px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 13px 5px 25px 2px rgba(0, 0, 0, 0.3);
+}
+
+.nav-menu.active{
+    left: 0;
+    transition: 350ms;
+}
+
+.nav-text{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 8px 0px 8px 16px;
+    list-style: none;
+    height: 60px;
+}
+
+.nav-text a{
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    border-radius: 4px;
+}
+
+.nav-text a:hover{
+    background-color: rgb(153, 153, 153);
+}
+
+.nav-menu-items{
+    width: 100%;
+}
+
+.navbar-toggle{
+    background-color: #ccc;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.titleItems {
+    margin-left: 16px;
+}
+
+.IconsSide{
+    font-size: 45px!important;
+    color: #333!important;
+}
+
+.Link{
+    text-decoration: none;
+    color: #333;
+}
+
+@media only screen and (max-width: 768px) {
+    .logo img {
+        position: relative;
+        top: 0px;
+        margin-left: 13px;
+        width: 25%;
+    }
+
+    .Profile{
+        font-size: 35px!important;
+    }
+
+    .userProfile{
+        display: flex;
+        justify-content: start;
+        margin-right: 10px;
+    }
+
+    .NameProfile{
+        margin-top: 8px;
+    }
+
+
+}

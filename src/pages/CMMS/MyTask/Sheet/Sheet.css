@@ -1,0 +1,47 @@
+@media only screen and (max-width: 768px) {
+    .SheetContainer{
+        padding: 10px;
+    }
+
+    .TitleSheet{
+        margin: 20px auto;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .ContentSheet{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 25px;
+    }
+
+    .NameSheet{
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .SheetImg{
+        width: 80px;
+        margin: 20px auto;
+        
+    }
+
+    .ContentSheetDesc{
+        margin-top: 20px;
+    }
+
+    .Bt-Sheet{
+        float: right;
+        padding: 8px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+
+    .Sheet-Tis{
+        background-color: #C00000 !important;
+        color: #fff!important;
+        
+    }
+
+    
+}

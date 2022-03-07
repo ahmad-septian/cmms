@@ -1,0 +1,74 @@
+@media only screen and (max-width: 768px) {
+    .TaskList {
+        min-height: 10%;
+    }
+
+    .TaskTitle {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .BottomNav {
+        position: absolute;
+        bottom: 0px;
+        width: 100% !important;
+        background-color: #C00000 !important;
+        -webkit-box-shadow: 13px 5px 25px 2px rgba(0, 0, 0, 0.3);
+        box-shadow: 13px 5px 25px 2px rgba(0, 0, 0, 0.3);
+    }
+
+    /* .floatingBottom{
+    position: fixed;
+    bottom: 60px;
+    right: 5px;
+} */
+
+    .Mui-selected {
+        color: white !important;
+    }
+
+    .ListTask {
+        height: 50px;
+        width: 100%;
+        background-color: #ccc;
+        margin-top: 20px;
+        border-radius: 30px;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .TaskList {
+        padding: 10px;
+    }
+
+    .TitleList {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .DescList {
+        padding: 12px;
+        margin-left: 10px;
+    }
+
+    .StatusList {
+        height: 50px;
+        width: 50px;
+        background-color: #C00000;
+        border-radius: 50%;
+    }
+
+    .StatusList2 {
+        height: 50px;
+        width: 50px;
+        background-color: #288A2A;
+        border-radius: 50%;
+    }
+
+    .TaskLink {
+        text-decoration: none;
+        color: #000;
+    }
+}
+
