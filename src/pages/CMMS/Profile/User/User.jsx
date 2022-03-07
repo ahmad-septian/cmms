@@ -9,7 +9,7 @@ export default function User() {
   return (
       <div className='UserContainer'>
         <Button className='Bt-Back' variant="contained" href="/" startIcon={<ArrowBack />}>
-            Back
+            Backs
         </Button>
           
           <div className="UserTitle">
